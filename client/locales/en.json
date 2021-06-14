@@ -1,0 +1,176 @@
+{
+  "$": {
+    "language": "EN",
+    "about": {
+      "api": {
+        "coproximation": "Approximation"
+      },
+      "description": {
+        "content": "System Q-system is designed to study the resource of parallelism of numerical algorithms based on concept of Q-determinant",
+        "header": "Description"
+      },
+      "help": {
+        "content": "Help Q-system.pdf",
+        "header": "Help"
+      }
+    },
+    "algorithms": {
+      "add": "Add",
+      "approximationPrompt": "Enter a polynomial degree",
+      "compare": "Compare",
+      "compare_form": {
+        "noResultText": "Comparision is impossible, since there are no identical values for the dimension and iteration parameters.",
+        "processors<": "Less",
+        "processors=": "Equally",
+        "processors>": "More",
+        "ticks<": "Slower",
+        "ticks=": "Equally",
+        "ticks>": "Faster"
+      },
+      "deleteConfirm": "Are you sure? This action can not be undone!",
+      "editAlgorithm_form": {
+        "cancel": "Cancel",
+        "description": "Description",
+        "header": "Algorithm #{n}",
+        "name": "Name",
+        "submit": "Update"
+      },
+      "headers": {
+        "description": "Description",
+        "determinantsCount": "Number of Q-determinants",
+        "name": "Name",
+        "processorsCompare": "Number of processors",
+        "ticksCompare": "Speed"
+      },
+      "newAlgorithm_form": {
+        "cancel": "Cancel",
+        "description": "Description",
+        "header": "New algorithm",
+        "name": "Name",
+        "submit": "Create"
+      },
+      "noResultText": "No algorithm has not yet been created!",
+      "algorithmsList": "List",
+      "hierarchy": "Hierarchy"
+    },
+    "approximation": {
+      "breadcrumbs": {
+        "cur": "Approximation of algorithm #{n} \"{name}\"",
+        "prev": "Algorithms"
+      },
+      "processors": "Algorithm width: {value}",
+      "ticks": "Algorithm height: {value}"
+    },
+    "determinants": {
+      "add": "Add",
+      "breadcrumbs": {
+        "cur": "Q-determinants of algorithm #{n} \"{name}\"",
+        "prev": "Algorithms"
+      },
+      "deleteConfirm": "Are you sure? This action can not be undone!",
+      "editDeterminant_form": {
+        "cancel": "Cancel",
+        "dimensions": "Dimension parameter values",
+        "header": "Q-determinant #{n}",
+        "iterations": "Number of iterations",
+        "submit": "Update"
+      },
+      "errors": {
+        "BAD_REQUEST": "Expression has the wrong format!",
+        "DETERMINANT_FOUND_BY_DIMENSIONS_OR_ITERATIONS": "The same Q-determinant already exists!",
+        "PAYLOAD_TOO_LARGE": "Expression is too large!"
+      },
+      "headers": {
+        "dimensions": "Dimension parameter values",
+        "iterations": "Number of iterations",
+        "processors": "Algorithm width",
+        "ticks": "Algorithm height"
+      },
+      "newDeterminant_form": {
+        "cancel": "Cancel",
+        "dimensions": "Dimension parameter values",
+        "header": "New Q-determinant",
+        "iterations": "Number of iterations",
+        "submit": "Create"
+      },
+      "noResultText": "No Q-determinant has not yet been created!"
+    },
+    "rules": {
+      "algorithmDescription": {
+        "required": "Description is required"
+      },
+      "algorithmName": {
+        "required": "Name is required"
+      },
+      "folderName": {
+        "required": "Name is required"
+      },
+      "argument": {
+        "required": "Argument is required"
+      },
+      "dimensions": {
+        "required": "Dimension parameter values is required"
+      },
+      "iterations": {
+        ">=0": "Number of iterations must be greater than or equal to zero",
+        "int": "Number of iterations must be an integer",
+        "required": "Number of iterations is required"
+      },
+      "password": {
+        "required": "Password is required"
+      },
+      "user": {
+        "required": "User is required"
+      }
+    },
+    "toolbar": {
+      "about": "About",
+      "signin": "Sign in",
+      "signin_form": {
+        "cancel": "Cancel",
+        "errors": {
+          "WRONG_USER_OR_PASSWORD": "Wrong username or password!"
+        },
+        "header": "Sign in",
+        "name": "User",
+        "password": "Password",
+        "submit": "Submit"
+      }
+    },
+    "folders": {
+      "deleteConfirm": "Are you sure? This action can not be undone!",
+      "editFolder_form": {
+        "header": "Edit folder name",
+        "name_ru": "Name (RU)",
+        "name_en": "Name (EN)"
+      },
+      "deleteFolder_form": {
+        "header": "Delete folder"
+      },
+      "addFolder_form": {
+        "header": "Add element",
+        "folder": "Subfolder",
+        "algorithm": "Algorithm",
+        "submit": "Add"
+      }
+    }
+  },
+  "$vuetify": {
+    "carousel": {
+      "next": "Next visual",
+      "prev": "Previous visual"
+    },
+    "dataIterator": {
+      "nextPage": "Next page",
+      "noResultsText": "No matching records found",
+      "pageText": "{0}-{1} of {2}",
+      "prevPage": "Previous page",
+      "rowsPerPageAll": "All",
+      "rowsPerPageText": "Items per page:"
+    },
+    "dataTable": {
+      "rowsPerPageText": "Rows per page:"
+    },
+    "noDataText": "No data available"
+  }
+}
